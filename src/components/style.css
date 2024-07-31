@@ -1,0 +1,101 @@
+.content{
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.content h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    font-weight: bold;
+}
+.content Table {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.content Table Button{
+    margin: 0 4px;
+}
+
+/* ADD form is here */
+.add-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.add-form {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.add-form input {
+    padding: 12px 15px;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 6px; 
+    font-size: 16px; 
+    outline: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, border-color 0.3s ease; 
+    margin-right: 10px; 
+}
+
+.add-form input:focus {
+    border: 2px solid #19d1a9;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); 
+}
+
+.add-form button {
+    padding: 10px;
+    background-color: #19d1a9;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin: 0 10px;
+}
+
+.add-form button:hover {
+    background-color: #3ea089;
+}
+
+/* search bar */
+.searchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.searchBar input {
+    padding: 12px 15px;
+    width: 100%;
+    max-width: 500px;
+    border: 2px solid #19d1a9;
+    border-radius: 10px 0px 0px 10px; 
+    font-size: 16px; 
+    outline: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.searchBar button{
+    background-color: #45e2c0;
+    border-radius: 0px 10px 10px 0px; 
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    padding: 13.5px 15px;
+    border: none;
+    text-align: center;
+}
+.searchBar button:hover{
+    background-color: #3ea089;
+}
+.searchBar button i{
+    font-size: 22px;
+}
