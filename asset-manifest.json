@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ptn-exam-reactjs/static/css/main.f6a1a93a.css",
+    "main.js": "/ptn-exam-reactjs/static/js/main.aea9a195.js",
+    "index.html": "/ptn-exam-reactjs/index.html",
+    "main.f6a1a93a.css.map": "/ptn-exam-reactjs/static/css/main.f6a1a93a.css.map",
+    "main.aea9a195.js.map": "/ptn-exam-reactjs/static/js/main.aea9a195.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6a1a93a.css",
+    "static/js/main.aea9a195.js"
+  ]
+}
